@@ -1,0 +1,436 @@
+/*adding the clearing all default browser settings*/
+
+/* Styling the home page*/
+
+.welcome-msg {
+	width: 100%;
+	height: 120px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 10%;
+	left: 50%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.enter-system{
+	width: 42%;
+	height: 320px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	display: inline-block;
+	top: 40%;
+	left: 50%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin: 130px 50px;
+}
+
+#lecturer-enter, #student-enter{
+	float: left;
+	margin: 10px 25px;
+}
+
+
+#lecturer-enter img, #student-enter img {
+	width: 140px;
+	height: 150px;
+	border-radius: 20%;
+}
+
+.enter-button-later{
+	width: 100px;
+	height: 30px;
+	padding: 30px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 90%;
+	border: 1px solid #33366cc;
+	color: #fff
+	border-radius: 10px;
+}
+
+
+/* Styling the login form*/
+
+/*.the-form {
+	width: 500px;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	background: url(images/quizz.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}*/
+
+.login-box {
+	width: 320px;
+	height: 420px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+.login-image, .signup-image  {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login-box h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+.login-box input{
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.login-box input[type="text"], .login-box input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #1c8adb;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover{
+	cursor: pointer;
+	color: #000;
+	background: #39dc79;
+}
+
+.login-box h5 a{
+	text-decoration: none;
+	color: #1c8adb;
+}
+
+/* Styling the sign up form*/
+
+.signup-box {
+	margin-top: 270px;
+	width: 320px;
+	height: 1040px;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	box-shadow: 0 115px 125px rgba(0, 0, 0, .6);
+	border-radius: 10px;
+}
+
+.signup-box h1{
+	margin: 0 30px;
+	padding: 0 20px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+}
+
+.signup-box #input-box {
+	position: relative;
+}
+
+.signup-box #input-box input, .signup-box #input-box select{
+	width: 100%;
+	padding: 5px 0;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	/*height: 40px;*/
+	color: #fff;
+	/*font-size: 16px;*/
+}
+
+/*.signup-box #input-box label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 5px 0;
+	color: #fff;
+	pointer-events: none;
+	transition: 5s;
+}
+
+.signup-box #input-box input:focus ~ label{
+	top: -20px;
+	left: 0;
+	color: #03a9f4;
+}*/
+
+.signup-box input[type="submit"]{
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #03a9f4;
+	padding: 5px 5px;
+	margin-top: 20px;
+	width: 100%;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+/* Styling the header file*/
+
+.header-wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+header nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+}
+
+.header-wrapper h1 {
+	float: left;
+	text-decoration: none;
+	color: black;
+}
+
+/*header nav ul{
+	float: left;
+}
+
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+header nav ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	text-decoration: none;
+}*/
+
+header .profile {
+	float: right;
+	margin-top: 17px;
+}
+
+header .profile h3 a{
+	text-decoration: none;
+}
+
+/*Stylong the footer*/
+footer{
+	border-top: 3px #f4f4f4 solid;
+	text-align: center;
+	padding-top: 5px;
+}
+
+/*Styling the student logged in page*/
+.student-main-container{
+	padding-top: 40px;
+	width: 100%;
+	height: 500px;
+}
+
+.student-main-container h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #111;
+	line-height: 50px;
+	text-align: center;
+}
+
+/*Styling the lecturer logged in page*/
+.lecturer-main-container{
+	padding-top: 40px;
+	width: 100%;
+	height: 500px;
+}
+
+.lecturer-main-container h2{
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #111;
+	line-height: 50px;
+	text-align: center;
+}
+
+/*Styling the main pages*/
+.initial-main-buttons{
+	text-align: center;
+}
+
+.initial-main-buttons input{
+	width: 190px;
+	height: 100px;
+	margin-top: 100px;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.initial-main-buttons input[name="quiz"]{
+	background-color: #669933;
+	color: #FFFFFF;
+}
+.initial-main-buttons input[name="quiz"]:hover{
+	background-color: #669900;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.initial-main-buttons input[name="accessment"]{
+	background-color: #996633;
+	color: #FFFFFF;
+}
+.initial-main-buttons input[name="accessment"]:hover{
+	background-color: #996600;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+/*Styling the write quiz and final score pages*/
+.write-quiz-main{
+	padding-bottom: 30px;
+	width: 100%;
+	height: 500px;
+	/*height: 100%;*/
+	text-align: center;
+}
+
+.quiz-container{
+	width: 60%;
+	margin: 0 auto;
+	/*text-align: left;
+	overflow: auto;*/
+}
+
+.heading{
+	border-bottom: 3px #f4f4f4 solid;
+	padding-top: 50px;
+}
+
+.quiz-container li{
+	list-style: none;
+}
+
+.quiz-container a{
+	text-decoration: none;
+}
+
+a.start{
+	display: inline-block;
+	color: #666;
+	background: #f4f4f4;
+	border: 1px dotted #ccc;
+	padding: 6px 13px;
+	margin-left: 50px;
+}
+a.take-quiz-again{
+	display: inline-block;
+	color: #666;
+	background: #f4f4f4;
+	border: 1px dotted #ccc;
+	padding: 6px 13px;
+	/* margin-left: 50px; */
+}
+
+/*Styling the questions page*/
+.questions{
+	text-align: left;
+	overflow: auto;	
+}
+
+.current{
+	padding: 10px;
+	background: #f4f4f4;
+	border: 1px dotted #ccc;
+	margin: 20px 0 10px 0;
+}
+
+/*Styling the quiz_admin page*/
+#my-label {
+	display: inline-block;
+	width: 180px;
+}
+
+.quiz-admin-form input[type='text']{
+	width: 97%;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+}
+.quiz-admin-form input[type='number']{
+	width: 50px;
+	padding: 4px;
+	border-radius: 5px;
+	border: 1px #ccc solid;
+}
+
+.quiz-admin-main{
+	padding-bottom: 30px;
+	width: 100%;
+	/*height: 650px;*/
+	height: 100%;
+	text-align: center;
+}
+
+#error_msg{
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+/*@media only screen and (max-width: 960px){
+	.quiz-admin-main {
+		width: 80%;
+	}
+}*/
+
+/*Styling the Quiz Admin Page*/
